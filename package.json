@@ -1,0 +1,41 @@
+{
+  "name": "service-template-with-db-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ptpavankumar@github.com/ptpavankumar/service-template-with-db-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptpavankumar/service-template-with-db-typescript/issues"
+  },
+  "homepage": "https://github.com/ptpavankumar/service-template-with-db-typescript#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.39",
+    "@types/node": "^7.0.10",
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "awilix": "^2.2.3",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "joi": "^10.2.2",
+    "knex": "^0.12.6",
+    "lodash": "^4.17.4",
+    "sqlite3": "^3.1.8"
+  }
+}
